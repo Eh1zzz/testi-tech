@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Testi-Tech Global — Buy, Sell & Swap premium gadgets. iPhones, Android phones, laptops, tablets. Expert repair & unlocking services in Benin City, Edo State." />
+  <meta name="keywords" content="buy iPhone Benin City, sell phone Nigeria, swap gadgets, phone repair, iCloud unlock, Testi-Tech" />
+  <meta property="og:title" content="Testi-Tech Global — Buy · Sell · Swap" />
+  <meta property="og:description" content="Premium gadgets marketplace & repair hub in Benin City." />
+  <meta name="theme-color" content="#0a0e1a" />
+  <title>Testi-Tech Global — Buy · Sell · Swap</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ░░ PRELOADER ░░ -->
+<div id="preloader" aria-hidden="true">
+  <div class="preloader-logo">TG</div>
+  <div class="preloader-bar"><div class="preloader-fill"></div></div>
+</div>
+
+<!-- ░░ CURSOR GLOW ░░ -->
+<div id="cursor-glow" aria-hidden="true"></div>
+
+<!-- ░░ NAVBAR ░░ -->
+<header id="navbar">
+  <a href="#home" class="nav-logo">
+    <div class="logo-mark">TG</div>
+    <span>Testi-Tech<br><em>Global</em></span>
+  </a>
+
+  <nav id="main-nav" aria-label="Main navigation">
+    <a href="#home"         data-nav="home">Home</a>
+    <a href="#shop"         data-nav="shop">Shop</a>
+    <a href="#services"     data-nav="services">Services</a>
+    <a href="#swap"         data-nav="swap">Swap</a>
+    <a href="#testimonials" data-nav="testimonials">Reviews</a>
+    <a href="#contact"      data-nav="contact">Contact</a>
+  </nav>
+
+  <div class="nav-actions">
+    <button id="theme-toggle" aria-label="Toggle theme" title="Toggle dark/light mode">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="icon-sun"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+    </button>
+    <a href="https://wa.me/2348149683390" target="_blank" rel="noopener" class="btn btn-whatsapp" aria-label="WhatsApp us">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.132.558 4.13 1.535 5.862L0 24l6.29-1.508A11.946 11.946 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.891 0-3.66-.5-5.19-1.374l-.37-.22-3.733.895.946-3.64-.242-.376A9.944 9.944 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+      Chat
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<div class="nav-overlay" id="nav-overlay"></div>
+
+
+<!-- ░░ SECTION 1: HERO ░░ -->
+<section id="home" class="hero">
+  <!-- Background grid -->
+  <div class="hero-grid" aria-hidden="true"></div>
+
+  <!-- Floating orbs -->
+  <div class="orb orb-1" aria-hidden="true"></div>
+  <div class="orb orb-2" aria-hidden="true"></div>
+
+  <div class="hero-content">
+    <div class="hero-text">
+      <div class="hero-badge reveal">🔥 Nigeria's Premier Tech Marketplace</div>
+      <h1 class="hero-heading reveal reveal-d1">
+        We <span class="text-glow">Buy</span><br>
+        We <span class="text-glow">Sell</span><br>
+        We <span class="text-glow">Swap</span>
+      </h1>
+      <p class="hero-sub reveal reveal-d2">Premium gadgets. Expert repairs. Unbeatable prices.<br>Benin City's most trusted tech hub.</p>
+      <div class="hero-btns reveal reveal-d3">
+        <a href="#shop" class="btn btn-primary">Browse Deals</a>
+        <a href="#swap" class="btn btn-outline">Trade In Device</a>
+      </div>
+      <div class="hero-stats reveal reveal-d4">
+        <div class="stat"><strong>500+</strong><span>Devices Sold</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>300+</strong><span>Happy Clients</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>5★</strong><span>Avg. Rating</span></div>
+      </div>
+    </div>
+
+    <!-- CSS Phone Mockup -->
+    <div class="hero-visual reveal reveal-d2" aria-hidden="true">
+      <div class="phone-wrap">
+        <div class="phone-glow"></div>
+        <div class="phone-frame">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div class="phone-status-bar">
+              <span>9:41</span>
+              <span>●●●</span>
+            </div>
+            <div class="phone-wallpaper">
+              <div class="phone-icon-grid">
+                <div class="p-icon" style="background:#1e90ff">📱</div>
+                <div class="p-icon" style="background:#00c896">💻</div>
+                <div class="p-icon" style="background:#ff6b35">🔧</div>
+                <div class="p-icon" style="background:#a855f7">☁️</div>
+                <div class="p-icon" style="background:#f59e0b">🔓</div>
+                <div class="p-icon" style="background:#ec4899">🎮</div>
+              </div>
+              <div class="phone-card">
+                <div class="phone-card-label">BEST DEAL TODAY</div>
+                <div class="phone-card-title">iPhone 15 Pro</div>
+                <div class="phone-card-price">₦ 850,000</div>
+              </div>
+            </div>
+          </div>
+          <div class="phone-home-bar"></div>
+        </div>
+        <!-- Floating badges -->
+        <div class="float-badge float-badge-1">✓ Verified</div>
+        <div class="float-badge float-badge-2">⚡ Fast Swap</div>
+        <div class="float-badge float-badge-3">🔒 Unlocked</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll-hint" aria-hidden="true">
+    <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+
+<!-- ░░ SECTION 2: SHOP ░░ -->
+<section id="shop" class="shop section-pad">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-eyebrow">Marketplace</p>
+      <h2 class="section-title">Latest Deals</h2>
+      <p class="section-sub">Carefully inspected devices at unbeatable prices. All with warranty.</p>
+    </div>
+
+    <!-- Filter Tabs -->
+    <div class="shop-filters reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="iphone">iPhones</button>
+      <button class="filter-btn" data-filter="android">Android</button>
+      <button class="filter-btn" data-filter="laptop">Laptops</button>
+      <button class="filter-btn" data-filter="tablet">Tablets</button>
+    </div>
+
+    <div class="products-grid" id="products-grid">
+      <!-- Cards injected by JS -->
+    </div>
+
+    <div class="shop-cta reveal">
+      <p>Don't see what you're looking for?</p>
+      <a href="#contact" class="btn btn-outline">Request a Device →</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ░░ SECTION 3: SERVICES ░░ -->
+<section id="services" class="services section-pad">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-eyebrow">Expert Services</p>
+      <h2 class="section-title">We Fix It Right</h2>
+      <p class="section-sub">Professional repairs and software services with quick turnaround.</p>
+    </div>
+
+    <div class="services-grid">
+      <article class="service-card reveal" tabindex="0">
+        <div class="service-icon">📱</div>
+        <h3>Flashing & Unlocking</h3>
+        <p>Full OS flashing for iPhones and Android phones. Network unlock for all carriers and countries.</p>
+        <div class="service-meta">⏱ Same Day</div>
+      </article>
+      <article class="service-card reveal reveal-d1" tabindex="0">
+        <div class="service-icon">🍎</div>
+        <h3>Apple ID Fixes</h3>
+        <p>Apple ID activation lock removal. Account verification issues resolved quickly and professionally.</p>
+        <div class="service-meta">⏱ 1–2 Hours</div>
+      </article>
+      <article class="service-card reveal reveal-d2 service-card--featured" tabindex="0">
+        <div class="service-icon">☁️</div>
+        <h3>iCloud Unlock</h3>
+        <p>All-country iCloud unlocking and bypassing. Permanently removed — no re-lock after updates.</p>
+        <div class="service-meta">⏱ 24–48 Hours</div>
+      </article>
+      <article class="service-card reveal reveal-d3" tabindex="0">
+        <div class="service-icon">⚙️</div>
+        <h3>Software Management</h3>
+        <p>OS updates, malware removal, performance optimisation, data recovery, and general diagnostics.</p>
+        <div class="service-meta">⏱ Same Day</div>
+      </article>
+    </div>
+
+    <!-- Book a service CTA -->
+    <div class="service-booking reveal">
+      <div class="booking-card">
+        <div class="booking-text">
+          <h3>Book a Service</h3>
+          <p>Tell us your device issue and we'll get back to you within the hour.</p>
+        </div>
+        <a href="#contact" class="btn btn-primary" onclick="prefillService()">Schedule Now →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ░░ SECTION 4: SWAP / TRADE-IN ░░ -->
+<section id="swap" class="swap section-pad">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-eyebrow">Trade-In</p>
+      <h2 class="section-title">Upgrade Your Device</h2>
+      <p class="section-sub">Get an instant estimate for your old device and put it toward something new.</p>
+    </div>
+
+    <div class="swap-layout">
+      <div class="swap-form-wrap reveal">
+        <form id="swap-form" class="swap-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="device-type">Device Type</label>
+              <select id="device-type" name="deviceType" required>
+                <option value="">Select type…</option>
+                <option value="iphone">iPhone</option>
+                <option value="android">Android Phone</option>
+                <option value="laptop">Laptop</option>
+                <option value="tablet">Tablet</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="device-brand">Brand / Model</label>
+              <input type="text" id="device-brand" name="brand" placeholder="e.g. iPhone 13 Pro" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="device-storage">Storage</label>
+              <select id="device-storage" name="storage">
+                <option value="">Select…</option>
+                <option>64GB</option><option>128GB</option>
+                <option>256GB</option><option>512GB</option><option>1TB</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="device-condition">Condition</label>
+              <select id="device-condition" name="condition" required>
+                <option value="">Select…</option>
+                <option value="mint">Mint (Like New)</option>
+                <option value="good">Good (Minor scratches)</option>
+                <option value="fair">Fair (Visible wear)</option>
+                <option value="poor">Poor (Cracked/Faulty)</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="swap-name">Your Name</label>
+            <input type="text" id="swap-name" name="name" placeholder="Full name" required>
+          </div>
+          <div class="form-group">
+            <label for="swap-phone">Phone / WhatsApp</label>
+            <input type="tel" id="swap-phone" name="phone" placeholder="+234 000 000 0000" required>
+          </div>
+          <div class="form-group">
+            <label for="upgrade-to">Interested in Upgrading To <span class="opt">(optional)</span></label>
+            <input type="text" id="upgrade-to" name="upgradeTo" placeholder="e.g. iPhone 15, Samsung S24…">
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <span class="btn-text">Get My Trade-In Value</span>
+            <span class="btn-loading"><span class="dot"></span><span class="dot"></span><span class="dot"></span></span>
+          </button>
+          <div id="swap-feedback" role="alert" aria-live="polite"></div>
+        </form>
+      </div>
+
+      <div class="swap-info reveal reveal-d2">
+        <h3>How It Works</h3>
+        <ol class="how-it-works">
+          <li>
+            <span class="step-num">01</span>
+            <div><strong>Fill the form</strong><p>Enter your device details above.</p></div>
+          </li>
+          <li>
+            <span class="step-num">02</span>
+            <div><strong>Get a Quote</strong><p>We call/WhatsApp you with an offer within the hour.</p></div>
+          </li>
+          <li>
+            <span class="step-num">03</span>
+            <div><strong>Visit or Ship</strong><p>Drop in at our shop or arrange a pickup in Benin City.</p></div>
+          </li>
+          <li>
+            <span class="step-num">04</span>
+            <div><strong>Walk Out Upgraded</strong><p>Pay the difference and leave with your new device.</p></div>
+          </li>
+        </ol>
+        <div class="swap-trust">
+          <div class="trust-item">✅ No hidden fees</div>
+          <div class="trust-item">✅ Best value guaranteed</div>
+          <div class="trust-item">✅ Data wiped securely</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ░░ SECTION 5: TESTIMONIALS ░░ -->
+<section id="testimonials" class="testimonials section-pad">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-eyebrow">Customer Stories</p>
+      <h2 class="section-title">What People Say</h2>
+    </div>
+    <div class="reviews-track-wrap">
+      <div class="reviews-track" id="reviews-track" aria-live="polite">
+        <!-- Injected by JS -->
+      </div>
+      <div class="reviews-nav">
+        <button class="rev-btn" id="rev-prev" aria-label="Previous review">‹</button>
+        <div class="rev-dots" id="rev-dots"></div>
+        <button class="rev-btn" id="rev-next" aria-label="Next review">›</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ░░ SECTION 6: ABOUT ░░ -->
+<section id="about" class="about section-pad">
+  <div class="container">
+    <div class="about-layout">
+      <div class="about-text reveal">
+        <p class="section-eyebrow">About Us</p>
+        <h2 class="section-title">Your Trusted Tech Partner</h2>
+        <p>At <strong>Testi-Tech Global</strong>, we believe everyone deserves access to quality technology. Based in the heart of Benin City, we've built a reputation for fair prices, honest service, and expert knowledge.</p>
+        <p>From sourcing the best pre-owned iPhones to unlocking devices from any carrier worldwide — we're the team your friends recommend.</p>
+        <div class="about-values">
+          <div class="value-item"><span>⚡</span><strong>Speed</strong><p>Same-day service on most repairs</p></div>
+          <div class="value-item"><span>🔒</span><strong>Trust</strong><p>Verified devices. Honest pricing.</p></div>
+          <div class="value-item"><span>🌍</span><strong>Reach</strong><p>All-country unlocking & iCloud</p></div>
+        </div>
+      </div>
+      <div class="about-visual reveal reveal-d2" aria-hidden="true">
+        <div class="about-card">
+          <div class="about-card-stat"><span class="big-num">500<sup>+</sup></span><span>Devices Sold</span></div>
+          <div class="about-card-stat"><span class="big-num">3<sup>yrs</sup></span><span>In Business</span></div>
+          <div class="about-card-stat"><span class="big-num">★4.9</span><span>Customer Rating</span></div>
+        </div>
+        <div class="about-badge-ring" aria-hidden="true">
+          <div class="ring-text">VERIFIED &nbsp;·&nbsp; TRUSTED &nbsp;·&nbsp; RELIABLE &nbsp;·&nbsp; EXPERT &nbsp;·&nbsp;</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ░░ SECTION 7: CONTACT ░░ -->
+<section id="contact" class="contact section-pad">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-eyebrow">Get In Touch</p>
+      <h2 class="section-title">Let's Talk Tech</h2>
+      <p class="section-sub">Have a question, want to buy, sell, or just need advice? We're here.</p>
+    </div>
+
+    <div class="contact-layout">
+      <!-- Info column -->
+      <div class="contact-info reveal">
+        <div class="info-card">
+          <div class="info-icon">📍</div>
+          <div>
+            <strong>Visit Us</strong>
+            <p>Shop 39, Favour Line, Bobizua<br>G.S.M Village, Opp. Oba Market Building<br>Beside Oba Market Police Station<br>Benin City, Edo State</p>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">📞</div>
+          <div>
+            <strong>Call / WhatsApp</strong>
+            <p><a href="tel:08149683390">08149683390</a></p>
+            <p><a href="tel:07034553778">07034553778</a></p>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🕐</div>
+          <div>
+            <strong>Opening Hours</strong>
+            <p>Mon – Sat: 9:00am – 7:00pm</p>
+            <p>Sunday: 12:00pm – 5:00pm</p>
+          </div>
+        </div>
+
+        <div class="contact-social">
+          <a href="https://wa.me/2348149683390" target="_blank" rel="noopener" class="social-btn whatsapp" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.132.558 4.13 1.535 5.862L0 24l6.29-1.508A11.946 11.946 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.891 0-3.66-.5-5.19-1.374l-.37-.22-3.733.895.946-3.64-.242-.376A9.944 9.944 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+            WhatsApp
+          </a>
+          <a href="tel:08149683390" class="social-btn call" aria-label="Call us">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Call Now
+          </a>
+        </div>
+      </div>
+
+      <!-- Form column -->
+      <div class="contact-form-wrap reveal reveal-d2">
+        <form id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="c-name">Full Name</label>
+            <input type="text" id="c-name" name="name" placeholder="Your name" required>
+            <span class="field-err" id="c-name-err"></span>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="c-email">Email</label>
+              <input type="email" id="c-email" name="email" placeholder="you@email.com" required>
+              <span class="field-err" id="c-email-err"></span>
+            </div>
+            <div class="form-group">
+              <label for="c-phone">Phone</label>
+              <input type="tel" id="c-phone" name="phone" placeholder="+234 000 000 0000">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="c-subject">Subject</label>
+            <select id="c-subject" name="subject">
+              <option value="">What's this about?</option>
+              <option>Buy a Device</option>
+              <option>Sell My Device</option>
+              <option>Swap / Trade-In</option>
+              <option>Repair / Service</option>
+              <option>iCloud / Unlock</option>
+              <option>General Enquiry</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="c-message">Message</label>
+            <textarea id="c-message" name="message" rows="4" placeholder="Tell us more…" required></textarea>
+            <span class="field-err" id="c-message-err"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="contact-submit">
+            <span class="btn-text">Send Message</span>
+            <span class="btn-loading"><span class="dot"></span><span class="dot"></span><span class="dot"></span></span>
+          </button>
+          <div id="contact-feedback" role="alert" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ░░ FOOTER ░░ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <div class="logo-mark">TG</div>
+          <span>Testi-Tech Global</span>
+        </div>
+        <p>Nigeria's most trusted gadget marketplace and repair hub. Buy, sell, swap — we've got you.</p>
+        <div class="footer-phones">
+          <a href="tel:08149683390">08149683390</a>
+          <a href="tel:07034553778">07034553778</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <a href="#shop">iPhones</a>
+        <a href="#shop">Android Phones</a>
+        <a href="#shop">Laptops</a>
+        <a href="#shop">Tablets</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a href="#services">Flashing & Unlocking</a>
+        <a href="#services">Apple ID Fixes</a>
+        <a href="#services">iCloud Bypass</a>
+        <a href="#services">Software Management</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#about">About Us</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#swap">Trade-In</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Testi-Tech Global. All rights reserved. &nbsp;·&nbsp; Benin City, Edo State, Nigeria.</p>
+      <div class="footer-theme-note">
+        <span>Built with ⚡ for the tech community</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ░░ FLOATING WHATSAPP ░░ -->
+<a href="https://wa.me/2348149683390?text=Hi%20Testi-Tech%2C%20I%27m%20interested%20in..."
+   class="fab-whatsapp" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.132.558 4.13 1.535 5.862L0 24l6.29-1.508A11.946 11.946 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.891 0-3.66-.5-5.19-1.374l-.37-.22-3.733.895.946-3.64-.242-.376A9.944 9.944 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+  <span class="fab-pulse"></span>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>

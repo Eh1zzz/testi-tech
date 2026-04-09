@@ -1,0 +1,1 @@
+To go live: drop your assets/ folder in, connect the /api/contact endpoint, and host the frontend on Netlify (free drag-and-drop).
