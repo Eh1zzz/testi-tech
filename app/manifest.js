@@ -1,0 +1,12 @@
+export default function manifest() {
+  return {
+    name: 'Testi-Tech Global',
+    short_name: 'Testi-Tech',
+    description: 'Buy · Sell · Swap gadgets + expert phone repair in Benin City.',
+    start_url: '/',
+    display: 'standalone',
+    background_color: '#0a0e1a',
+    theme_color: '#0a0e1a',
+    icons: [{ src: '/icon.svg', sizes: 'any', type: 'image/svg+xml' }],
+  };
+}

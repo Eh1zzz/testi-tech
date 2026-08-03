@@ -24,6 +24,7 @@ export const metadata = {
   },
   alternates: { canonical: '/' },
   robots: { index: true, follow: true },
+  icons: { icon: '/icon.svg', apple: '/icon.svg' },
 };
 
 export const viewport = {
